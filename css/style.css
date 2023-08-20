@@ -57,6 +57,11 @@ ul {
 .course header {
   padding: 40px 0px;
 }
+@media (max-width: 767px) {
+  .course header .container {
+    padding: 0 40px;
+  }
+}
 .course header .container .title {
   display: flex;
   align-items: center;
@@ -96,7 +101,7 @@ ul {
 }
 @media (max-width: 767px) {
   .course header .container p {
-    font-size: 13px;
+    font-size: 12px;
     padding-left: 0;
   }
 }
@@ -107,6 +112,7 @@ ul {
   .packages .container {
     flex-direction: column;
     align-items: center;
+    padding: 0 20px;
   }
 }
 .packages .container .package {
@@ -131,7 +137,7 @@ ul {
 }
 @media (max-width: 767px) {
   .packages .container .package .header-title h2 {
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 .packages .container .package .header-title h2::before {
