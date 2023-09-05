@@ -187,6 +187,11 @@ ul {
 .packages .container .package .content li p span {
   font-weight: 500;
 }
+@media (max-width: 991px) {
+  .packages .container .package .footer {
+    text-align: center;
+  }
+}
 .packages .container .package .footer .price {
   display: flex;
   justify-content: space-between;
