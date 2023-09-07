@@ -5,3 +5,6 @@ Course Offer Box Challenge Using HTML And CSS Enough
 
 ### Demo
 https://rajaaabdelaati.github.io/Course-Offer-Box/
+
+### Design Website Link
+https://elzero.org/frontend-course-offer-box/
